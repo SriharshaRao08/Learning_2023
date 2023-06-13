@@ -1,3 +1,4 @@
+/*program to print the grade of the given student using if else if block*/
 #include <stdio.h>
 
 int main() {
