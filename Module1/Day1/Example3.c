@@ -35,5 +35,6 @@ int main() {
     printf("Total Marks: %.2f\n", totalmarks);
     printf("Percentage: %.2f%%\n", percentage);
 
+    
     return 0;
 }
