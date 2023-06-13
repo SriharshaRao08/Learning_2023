@@ -1,4 +1,4 @@
-/*program to read the Roll No,Name,Marks*/
+/*Program to read the Roll No,Name,Marks*/
 
 #include <stdio.h>
 
