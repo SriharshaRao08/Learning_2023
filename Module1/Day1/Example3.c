@@ -8,19 +8,19 @@ int main() {
     float pmarks, mmarks, cmarks;
     float totalmarks, percentage;
 
-    printf("Enter the Roll No: ");
+    printf("Enter the Roll No ");
     scanf("%s", roll_no);
 
-    printf("Enter the Name: ");
+    printf("Enter the Name ");
     scanf(" %[^\n]s", name);
 
-    printf("Enter the Physics marks: ");
+    printf("Enter the Physics marks ");
     scanf("%f", &pmarks);
 
-    printf("Enter the Math marks: ");
+    printf("Enter the Math marks ");
     scanf("%f", &mmarks);
 
-    printf("Enter the Chemistry marks: ");
+    printf("Enter the Chemistry marks ");
     scanf("%f", &cmarks);
 
     totalmarks = pmarks + mmarks + cmarks;
