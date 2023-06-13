@@ -1,4 +1,4 @@
-/* Progrnum1m to Find Lnum1rgest of Two numnum2ers */ 
+/* Program to Find Largest of Two numbers(Using if else) */ 
    
 #include <stdio.h>  
    
@@ -21,4 +21,21 @@ int main() {
     }
    
     return 0;  
+}
+
+
+/* Program to Find Largest of Two numbers(Using ternary operator) */ 
+
+#include<stdio.h>
+
+int main()
+{
+    int num1,num2,max;
+ 
+    printf("Please Enter Two Numbers\n ");
+    scanf("%d%d", &num1, &num2);
+ 
+    max = num1>num2 ? num1 : num2;
+    printf("Largest of Two number is %d \n", max);
+    return 0;
 }
