@@ -23,3 +23,36 @@ int main() {
     
     return 0;
 }
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+void swap(void* a, void* b) {
+    
+    char* temp = (char*)a;
+    char* temp2 = (char*)b;
+    
+    while (*temp != '\0') {
+        char t = *temp;
+        *temp = *temp2;
+        *temp2 = t;
+        temp++;
+        temp2++;
+    }
+}
+
+int main() {
+    int num1,num2;
+    
+    printf("Enter Two Numbers\n");
+    scanf("%d %d",&num1, &num2);
+
+    printf("Before swap: a = %d, b = %d\n", num1, num2);
+
+    // Swap the values using the swap function
+    swap(&num1, &num2);
+
+    printf("After swap: a = %d, b = %d\n", num1, num2);
+    return 0;
+}
+
